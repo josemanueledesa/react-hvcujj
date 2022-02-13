@@ -4,6 +4,7 @@ import Ejercicio1 from '../components/Ejercicio1';
 import Ejercicio2 from '../components/Ejercicio2';
 import Ejercicio3 from '../components/Ejercicio3';
 import bibliografia from '../components/bibliografia';
+import Table from '../components/Table';
 export const MenuItems = [
 
   {
@@ -16,22 +17,27 @@ export const MenuItems = [
   {
     id: 2,
     path: '/Ejercicio2',
-    title: ' ejercicio2 ',
+    title: 'ejercicio2',
     component: Ejercicio2,
   },
   {
     id: 3,
     path: '/Ejercicio3',
-    title: ' ejercicio3 ',
+    title: 'ejercicio3',
     component: Ejercicio3,
   },
   {
     id: 4,
     path: '/Bibliografia',
-    title: ' bibliografia ',
+    title: 'bibliografia',
     component: bibliografia,
   },
-  
+  {
+    id: 5,
+    path: '/Table',
+    title: 'table',
+    component: Table,
+  },
 
  
 ];
