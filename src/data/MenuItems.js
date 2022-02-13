@@ -4,7 +4,7 @@ import Ejercicio1 from '../components/Ejercicio1';
 import Ejercicio2 from '../components/Ejercicio2';
 import Ejercicio3 from '../components/Ejercicio3';
 import bibliografia from '../components/bibliografia';
-import Form from '../components/Form';
+
 export const MenuItems = [
 
   {
@@ -32,12 +32,7 @@ export const MenuItems = [
     title: 'bibliografia',
     component: bibliografia,
   },
-  {
-    id: 5,
-    path: '/Form',
-    title: 'form',
-    component: Form,
-  },
+ 
 
  
 ];
