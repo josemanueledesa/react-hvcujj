@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
-  const [inputList, setInputList] = useState([{ firstName: "", lastName: "",lastName2: "" }]);
+  const [inputList, setInputList] = useState([{ titulo: "", autor: "",lastName2: "" }]);
 
   // handle input change
   const handleInputChange = (e, index) => {
@@ -20,7 +20,7 @@ function App() {
 
   // handle click event of the Add button
   const handleAddClick = () => {
-    setInputList([...inputList, { firstName: "", lastName: "",lastName2: "" }]);
+    setInputList([...inputList, { titulo: "", autor: "",lastName2: "" }]);
   };
 
   return (
@@ -30,15 +30,15 @@ function App() {
         return (
           <div className="box">
             <input
-              name="firstName"
-              placeholder="Enter First Name"
+              name="titulo"
+              placeholder=" introduce titulo"
               value={x.firstName}
               onChange={e => handleInputChange(e, i)}
             />
             <input
               className="ml10"
-              name="lastName"
-              placeholder="Enter Last Name"
+              name="autor"
+              placeholder=" introduce autor"
               value={x.lastName}
               onChange={e => handleInputChange(e, i)}
             />
